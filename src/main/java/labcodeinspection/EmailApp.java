@@ -3,7 +3,16 @@ package labcodeinspection;
 import java.util.Scanner;
 
 public class EmailApp {
+	
+	private EmailApp() {
+        throw new AssertionError("EmailApp class cannot be instantiated");
+    }
 
+	/**
+	*
+	*
+	* @author Guillermo
+	*/
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
